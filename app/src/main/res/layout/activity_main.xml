@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="left"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="50dp"
+            android:text="zuifany" />
+
+        <TextView
+            android:id="@+id/occupation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200dp"
+            android:text="ibu rumah tangga" />
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_marginLeft="50dp"
+        android:id="@+id/propic"
+        android:layout_width="142dp"
+        android:layout_height="188dp"
+        android:src="@drawable/profilepic"/>
+    <TextView
+        android:id="@+id/location"
+        android:text="Bali"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="200dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <ImageView
+        android:id="@+id/iconlocation"
+        android:src="@drawable/locationicon"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="200dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/office"
+        android:text="Batara Ismaya"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="100dp"/>
+
+    <ImageView
+        android:id="@+id/officeicon"
+        android:src="@drawable/officeicon"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="220dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/buttonf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:backgroundTint="@color/yellow"
+        android:checkable="true"
+        android:clickable="true"
+        android:cursorVisible="true"
+        android:onClick="unfollow"
+        android:text="follow"
+        android:textStyle="bold"
+        app:strokeColor="#000000"
+        tools:ignore="OnClick" />
+
+    <ScrollView
+        android:id="@+id/scrolltext"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="300dp"
+        android:layout_marginBottom="50dp"
+        android:fillViewport="true"
+        android:textAlignment="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lorem ipsum dolor sit amet, velit maiorum no mea, mea te erat decore nonumy. Justo legere fierent cum at, no mandamus iudicabit euripidis mea. Sale ocurreret hendrerit te eam. Diam aeque eam no, ea pro odio putant, et pri dictas regione dissentiunt.
+
+Eum summo noster quaeque eu, in pri homero intellegat, nec an wisi inermis efficiantur. Vis etiam dissentiet eu. An liber errem tamquam sed, senserit maiestatis vel id. Vel te utinam pertinax conclusionemque.
+
+Case homero recusabo in qui, fugit eruditi vivendo mel cu. At sed quas doming sententiae, tation instructior sed eu. Est no option dolores antiopam. Invidunt vituperatoribus vis cu. Qui mutat paulo ceteros ad, regione abhorreant rationibus eos at. Movet consul postulant ad vel, ut vis esse possit, graeci dignissim his eu.
+
+Alienum iudicabit has in. Qui alii malis scaevola no, ut pri omnis sonet torquatos. Ex aperiri prompta senserit nam, ne fuisset salutandi sea. Ei vis nonumy referrentur, has error propriae comprehensam te, omnis vitae voluptatibus ei mel. Audiam recteque erroribus sit an.
+
+His ex vitae maiorum repudiandae, pro posidonium liberavisse ne. Quas dicunt eirmod sea an. Ut quaestio delicata vim, eu has sale harum, usu audire cotidieque in. At vel veritus facilis pericula, te sit graecis delectus dissentias. Te ius altera discere, cu nec vocent placerat honestatis. Purto wisi ullum sit eu.Lorem ipsum dolor sit amet, velit maiorum no mea, mea te erat decore nonumy. Justo legere fierent cum at, no mandamus iudicabit euripidis mea. Sale ocurreret hendrerit te eam. Diam aeque eam no, ea pro odio putant, et pri dictas regione dissentiunt.
+
+Eum summo noster quaeque eu, in pri homero intellegat, nec an wisi inermis efficiantur. Vis etiam dissentiet eu. An liber errem tamquam sed, senserit maiestatis vel id. Vel te utinam pertinax conclusionemque.
+
+Case homero recusabo in qui, fugit eruditi vivendo mel cu. At sed quas doming sententiae, tation instructior sed eu. Est no option dolores antiopam. Invidunt vituperatoribus vis cu. Qui mutat paulo ceteros ad, regione abhorreant rationibus eos at. Movet consul postulant ad vel, ut vis esse possit, graeci dignissim his eu.
+
+Alienum iudicabit has in. Qui alii malis scaevola no, ut pri omnis sonet torquatos. Ex aperiri prompta senserit nam, ne fuisset salutandi sea. Ei vis nonumy referrentur, has error propriae comprehensam te, omnis vitae voluptatibus ei mel. Audiam recteque erroribus sit an.
+
+His ex vitae maiorum repudiandae, pro posidonium liberavisse ne. Quas dicunt eirmod sea an. Ut quaestio delicata vim, eu has sale harum, usu audire cotidieque in. At vel veritus facilis pericula, te sit graecis delectus dissentias. Te ius altera discere, cu nec vocent placerat honestatis. Purto wisi ullum sit eu.Lorem ipsum dolor sit amet, velit maiorum no mea, mea te erat decore nonumy. Justo legere fierent cum at, no mandamus iudicabit euripidis mea. Sale ocurreret hendrerit te eam. Diam aeque eam no, ea pro odio putant, et pri dictas regione dissentiunt.
+
+Eum summo noster quaeque eu, in pri homero intellegat, nec an wisi inermis efficiantur. Vis etiam dissentiet eu. An liber errem tamquam sed, senserit maiestatis vel id. Vel te utinam pertinax conclusionemque.
+
+Case homero recusabo in qui, fugit eruditi vivendo mel cu. At sed quas doming sententiae, tation instructior sed eu. Est no option dolores antiopam. Invidunt vituperatoribus vis cu. Qui mutat paulo ceteros ad, regione abhorreant rationibus eos at. Movet consul postulant ad vel, ut vis esse possit, graeci dignissim his eu.
+
+Alienum iudicabit has in. Qui alii malis scaevola no, ut pri omnis sonet torquatos. Ex aperiri prompta senserit nam, ne fuisset salutandi sea. Ei vis nonumy referrentur, has error propriae comprehensam te, omnis vitae voluptatibus ei mel. Audiam recteque erroribus sit an.
+
+His ex vitae maiorum repudiandae, pro posidonium liberavisse ne. Quas dicunt eirmod sea an. Ut quaestio delicata vim, eu has sale harum, usu audire cotidieque in. At vel veritus facilis pericula, te sit graecis delectus dissentias. Te ius altera discere, cu nec vocent placerat honestatis. Purto wisi ullum sit eu."
+            android:textAlignment="center" />
+
+
+    </ScrollView>
+
+
+
+
+</RelativeLayout>
